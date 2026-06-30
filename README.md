@@ -31,9 +31,9 @@ cd ai-assistant
 ```
 
 ### 3. Setup API Keys
-Create a file named `keys.txt` in the root directory and paste your **Groq API Key** inside it:
+Create a file named `.env` in the root directory and paste your **Groq API Key** inside it:
 ```text
-gsk_your_groq_api_key_here
+GROQ_API_KEY=gsk_your_groq_api_key_here
 ```
 
 ### 4. Setup Python Environment
