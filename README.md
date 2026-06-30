@@ -1,73 +1,82 @@
-# Pular Voice AI Assistant 🌍
+# Pular Voice AI Assistant
 
-A full-stack, multilingual Voice-to-Voice AI Assistant designed specifically for the **Pular/Fulfulde** language. Built using cutting-edge AI models, this assistant provides natural, conversational, and ultra-fast voice interactions.
+A full-stack Voice-to-Voice AI Assistant designed for the Pular/Fulfulde language. This project leverages natural language processing and voice synthesis to provide real-time conversational capabilities.
 
-## 🚀 Features
+## Features
 
-- **Voice-to-Text (ASR)**: High-accuracy speech recognition using OpenAI's **Whisper** model.
-- **Ultra-Fast LLM**: Context-aware, intelligent conversations using **Groq API (Llama-3.3-70b)**.
-- **Text-to-Speech (TTS)**: Natural voice synthesis using **Edge-TTS**.
-- **Context & Knowledge (RAG)**: Retrieval-Augmented Generation powered by **ChromaDB**.
-- **Full-Stack Architecture**: Robust **FastAPI** backend, **React** frontend, and a **Gradio** web interface.
-- **Database**: Dual database setup using **PostgreSQL** (Authentication) and **SQLite** (Chat History).
+* Voice-to-Text (ASR) using OpenAI Whisper
+* Text-to-Speech (TTS) using Edge-TTS
+* Large Language Model integration via Groq API (Llama 3)
+* Retrieval-Augmented Generation (RAG) using ChromaDB
+* Dual database architecture: PostgreSQL for authentication, SQLite for chat history
+* REST API backend built with FastAPI
+* Interactive web interfaces using React.js and Gradio
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-- **Backend**: Python, FastAPI, Uvicorn, PostgreSQL, SQLite
-- **Frontend**: React.js, Gradio
-- **AI/ML**: OpenAI Whisper, Edge-TTS, Groq (Llama-3), ChromaDB
+* **Backend**: Python, FastAPI, Uvicorn
+* **Frontend**: React.js, Gradio
+* **Databases**: PostgreSQL, SQLite, ChromaDB
+* **Machine Learning**: Whisper, Edge-TTS, Llama-3
 
-## ⚙️ Setup & Installation
+## Installation and Setup
 
 ### 1. Prerequisites
-- Python 3.10+
-- Node.js & npm
-- FFmpeg (for audio processing)
+
+* Python 3.10 or higher
+* Node.js and npm
+* FFmpeg
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/654sharmanandini-ai/ai-assistant.git
 cd ai-assistant
 ```
 
-### 3. Setup API Keys
-Create a file named `.env` in the root directory and paste your **Groq API Key** inside it:
+### 3. Environment Variables
+
+Create a `.env` file in the root directory and add your API keys:
+
 ```text
-GROQ_API_KEY=gsk_your_groq_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
-### 4. Setup Python Environment
+### 4. Backend Setup
+
 ```bash
 python -m venv venv
-# On Windows:
 .\venv\Scripts\activate
-# Install dependencies
-pip install fastapi uvicorn groq whisper edge-tts gradio psycopg2 chromadb bcrypt python-jose
+pip install fastapi uvicorn groq whisper edge-tts gradio psycopg2 chromadb bcrypt python-jose python-dotenv
 ```
 
 ### 5. Running the Application
 
-**Option A: Run the Gradio App (All-in-one UI)**
+**Gradio Interface:**
+
 ```bash
 python pular_app.py
 ```
 
-**Option B: Run the Full-Stack (FastAPI + React)**
-1. **Start the Backend:**
+**Full-Stack Application:**
+
+Start the backend server:
 ```bash
 cd backend
 uvicorn main:app --reload
 ```
-2. **Start the Frontend:**
-Open a new terminal and run:
+
+Start the frontend server:
 ```bash
 cd frontend
 npm install
 npm start
 ```
 
-## 🔒 Security Note
-Do not commit your `keys.txt` or `.env` files to GitHub. This repository uses `.gitignore` to keep API keys secure.
+## Security
 
-## 📄 License
-This project is open-source and available under the MIT License.
+Ensure that your `.env` file is never committed to version control. It is included in `.gitignore` by default.
+
+## License
+
+MIT License
