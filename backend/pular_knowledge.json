@@ -1,0 +1,472 @@
+[
+  {
+    "pular": "A jaraama.",
+    "english": "I greet you. / Hello.",
+    "category": "greetings"
+  },
+  {
+    "pular": "On jaraama.",
+    "english": "I greet you. (respectful/plural)",
+    "category": "greetings"
+  },
+  {
+    "pular": "Tanna alaa?",
+    "english": "Is there no evil? / How are you?",
+    "category": "greetings"
+  },
+  {
+    "pular": "Jam tun.",
+    "english": "Peace only.",
+    "category": "greetings"
+  },
+  {
+    "pular": "No wa'i?",
+    "english": "What's up?",
+    "category": "greetings"
+  },
+  {
+    "pular": "No marsude?",
+    "english": "How's it going?",
+    "category": "greetings"
+  },
+  {
+    "pular": "No marsude seeða.",
+    "english": "Going a little. / OK.",
+    "category": "greetings"
+  },
+  {
+    "pular": "No marsude fota.",
+    "english": "Going well.",
+    "category": "greetings"
+  },
+  {
+    "pular": "Åeyngure nden no e jam?",
+    "english": "Is the family well?",
+    "category": "greetings"
+  },
+  {
+    "pular": "Fay åe åen no e jam?",
+    "english": "Are the children well?",
+    "category": "greetings"
+  },
+  {
+    "pular": "Hiða e jam?",
+    "english": "Are you well?",
+    "category": "greetings"
+  },
+  {
+    "pular": "A walli e jam?",
+    "english": "Did you sleep in peace?",
+    "category": "greetings"
+  },
+  {
+    "pular": "On belike e jam?",
+    "english": "Did you sleep in peace? (respectful)",
+    "category": "greetings"
+  },
+  {
+    "pular": "On ñalli e jam?",
+    "english": "Have you spent the day in peace?",
+    "category": "greetings"
+  },
+  {
+    "pular": "Kori hiðon e jam?",
+    "english": "I hope you are well? (respectful)",
+    "category": "greetings"
+  },
+  {
+    "pular": "Onon le?",
+    "english": "And you?",
+    "category": "greetings"
+  },
+  {
+    "pular": "Hiåe e jam.",
+    "english": "They are well.",
+    "category": "responses"
+  },
+  {
+    "pular": "Ko ýettude Alla.",
+    "english": "Thanks be to God.",
+    "category": "responses"
+  },
+  {
+    "pular": "Alhamdullilahi.",
+    "english": "Thanks be to God.",
+    "category": "responses"
+  },
+  {
+    "pular": "Hii-hi.",
+    "english": "Yes.",
+    "category": "responses"
+  },
+  {
+    "pular": "Eyyo.",
+    "english": "Yes.",
+    "category": "responses"
+  },
+  {
+    "pular": "O'o.",
+    "english": "No.",
+    "category": "responses"
+  },
+  {
+    "pular": "Awa.",
+    "english": "OK. / Alright.",
+    "category": "responses"
+  },
+  {
+    "pular": "Oo-o!",
+    "english": "Bye!",
+    "category": "farewells"
+  },
+  {
+    "pular": "En jango.",
+    "english": "See you tomorrow.",
+    "category": "farewells"
+  },
+  {
+    "pular": "En bimbi.",
+    "english": "See you in the morning.",
+    "category": "farewells"
+  },
+  {
+    "pular": "En ontuma.",
+    "english": "See you later.",
+    "category": "farewells"
+  },
+  {
+    "pular": "En jemma.",
+    "english": "See you tonight.",
+    "category": "farewells"
+  },
+  {
+    "pular": "Si Alla jaåi.",
+    "english": "God willing.",
+    "category": "farewells"
+  },
+  {
+    "pular": "Waalen e jam.",
+    "english": "Let us sleep well.",
+    "category": "farewells"
+  },
+  {
+    "pular": "Ñallen e jam.",
+    "english": "Let's pass the day in peace.",
+    "category": "farewells"
+  },
+  {
+    "pular": "Hiiren e jam.",
+    "english": "Let's pass the evening in peace.",
+    "category": "farewells"
+  },
+  {
+    "pular": "Accee hakkee.",
+    "english": "Please excuse me.",
+    "category": "polite"
+  },
+  {
+    "pular": "Mi faamaali.",
+    "english": "I don't understand.",
+    "category": "beginner"
+  },
+  {
+    "pular": "Miðo ekitaade.",
+    "english": "I am learning.",
+    "category": "beginner"
+  },
+  {
+    "pular": "Miðo waawi Pular seeða tun.",
+    "english": "I speak Pular a little.",
+    "category": "beginner"
+  },
+  {
+    "pular": "Mi waawataa Pular buy.",
+    "english": "I don't speak much Pular.",
+    "category": "beginner"
+  },
+  {
+    "pular": "Ko honno inneteða?",
+    "english": "What is your name?",
+    "category": "introductions"
+  },
+  {
+    "pular": "Ko honto iwuðaa?",
+    "english": "Where do you come from?",
+    "category": "introductions"
+  },
+  {
+    "pular": "Ko honðun gollataa?",
+    "english": "What do you do?",
+    "category": "introductions"
+  },
+  {
+    "pular": "Ko mi jannoowo.",
+    "english": "I am a teacher.",
+    "category": "introductions"
+  },
+  {
+    "pular": "Wonaa mi jannoowo.",
+    "english": "I am not a teacher.",
+    "category": "introductions"
+  },
+  {
+    "pular": "Ko honto hoðuðaa?",
+    "english": "Where do you live?",
+    "category": "introductions"
+  },
+  {
+    "pular": "An le?",
+    "english": "And you?",
+    "category": "introductions"
+  },
+  {
+    "pular": "ko",
+    "english": "verb to be. Ko mi jannoowo = I am a teacher",
+    "category": "grammar"
+  },
+  {
+    "pular": "wonaa",
+    "english": "negation. Wonaa mi jannoowo = I am not a teacher",
+    "category": "grammar"
+  },
+  {
+    "pular": "mi",
+    "english": "I (subject)",
+    "category": "grammar"
+  },
+  {
+    "pular": "a",
+    "english": "you (familiar)",
+    "category": "grammar"
+  },
+  {
+    "pular": "on",
+    "english": "you (respectful)",
+    "category": "grammar"
+  },
+  {
+    "pular": "o",
+    "english": "he or she",
+    "category": "grammar"
+  },
+  {
+    "pular": "en",
+    "english": "we (inclusive)",
+    "category": "grammar"
+  },
+  {
+    "pular": "åe",
+    "english": "they",
+    "category": "grammar"
+  },
+  {
+    "pular": "alaa",
+    "english": "there is none",
+    "category": "grammar"
+  },
+  {
+    "pular": "woodi",
+    "english": "it exists / there is",
+    "category": "grammar"
+  },
+  {
+    "pular": "Miðo weelaa.",
+    "english": "I am hungry.",
+    "category": "food"
+  },
+  {
+    "pular": "Hiða faalaa ñaamugol?",
+    "english": "Do you want to eat?",
+    "category": "food"
+  },
+  {
+    "pular": "Åeydu seeða!",
+    "english": "Eat some more!",
+    "category": "food"
+  },
+  {
+    "pular": "Ndiyan",
+    "english": "water",
+    "category": "food"
+  },
+  {
+    "pular": "ñaamdu",
+    "english": "food",
+    "category": "food"
+  },
+  {
+    "pular": "No åutti seeða?",
+    "english": "Are you better?",
+    "category": "health"
+  },
+  {
+    "pular": "Mi selli.",
+    "english": "I am healthy.",
+    "category": "health"
+  },
+  {
+    "pular": "Miðo ñawii.",
+    "english": "I am sick.",
+    "category": "health"
+  },
+  {
+    "pular": "Ðuytu seeða!",
+    "english": "Come down a little in price.",
+    "category": "shopping"
+  },
+  {
+    "pular": "Ko hol njamndi ðun?",
+    "english": "How much does that cost?",
+    "category": "shopping"
+  },
+  {
+    "pular": "Ko honto yahuða hande?",
+    "english": "Where are you going today?",
+    "category": "travel"
+  },
+  {
+    "pular": "No woðði?",
+    "english": "Is it far?",
+    "category": "travel"
+  },
+  {
+    "pular": "baaba",
+    "english": "father",
+    "category": "family"
+  },
+  {
+    "pular": "nene",
+    "english": "mother",
+    "category": "family"
+  },
+  {
+    "pular": "boobo",
+    "english": "baby",
+    "category": "family"
+  },
+  {
+    "pular": "paykun",
+    "english": "child",
+    "category": "family"
+  },
+  {
+    "pular": "debbo",
+    "english": "woman / wife",
+    "category": "family"
+  },
+  {
+    "pular": "gorko",
+    "english": "man / husband",
+    "category": "family"
+  },
+  {
+    "pular": "mawðo",
+    "english": "old person / elder",
+    "category": "family"
+  },
+  {
+    "pular": "yettugol",
+    "english": "to greet",
+    "category": "verbs"
+  },
+  {
+    "pular": "wallugol",
+    "english": "to help",
+    "category": "verbs"
+  },
+  {
+    "pular": "yahugol",
+    "english": "to go",
+    "category": "verbs"
+  },
+  {
+    "pular": "waawugol",
+    "english": "to be able to",
+    "category": "verbs"
+  },
+  {
+    "pular": "faalagol",
+    "english": "to want",
+    "category": "verbs"
+  },
+  {
+    "pular": "faamugol",
+    "english": "to understand",
+    "category": "verbs"
+  },
+  {
+    "pular": "ñaamugol",
+    "english": "to eat",
+    "category": "verbs"
+  },
+  {
+    "pular": "yarugol",
+    "english": "to drink",
+    "category": "verbs"
+  },
+  {
+    "pular": "gollagol",
+    "english": "to work",
+    "category": "verbs"
+  },
+  {
+    "pular": "go'o",
+    "english": "one (1)",
+    "category": "numbers"
+  },
+  {
+    "pular": "ðiði",
+    "english": "two (2)",
+    "category": "numbers"
+  },
+  {
+    "pular": "tati",
+    "english": "three (3)",
+    "category": "numbers"
+  },
+  {
+    "pular": "nayi",
+    "english": "four (4)",
+    "category": "numbers"
+  },
+  {
+    "pular": "jowi",
+    "english": "five (5)",
+    "category": "numbers"
+  },
+  {
+    "pular": "sappo",
+    "english": "ten (10)",
+    "category": "numbers"
+  },
+  {
+    "pular": "noogaas",
+    "english": "twenty (20)",
+    "category": "numbers"
+  },
+  {
+    "pular": "teemedere",
+    "english": "one hundred (100)",
+    "category": "numbers"
+  },
+  {
+    "pular": "Lekkun åee e ðowkal mun.",
+    "english": "Every little tree gives its little bit of shade. (proverb)",
+    "category": "proverbs"
+  },
+  {
+    "pular": "Miðo janngi.",
+    "english": "I am studying.",
+    "category": "daily"
+  },
+  {
+    "pular": "Miðo golli.",
+    "english": "I am working.",
+    "category": "daily"
+  },
+  {
+    "pular": "Mi wari.",
+    "english": "I came / I arrived.",
+    "category": "daily"
+  }
+]
