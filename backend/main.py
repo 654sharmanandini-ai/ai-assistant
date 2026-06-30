@@ -64,7 +64,13 @@ DB_URL = "postgresql://postgres:root123@localhost/pular_ai"
 GROQ_API_KEY = "apni_groq_key_yahan"
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
-client = Groq(api_key="your_api_key_here")
+try:
+    with open(os.path.join(os.path.dirname(__file__), "..", "keys.txt"), "r") as f:
+        api_key_str = f.read().strip()
+except Exception:
+    api_key_str = "your_api_key_here"
+
+client = Groq(api_key=api_key_str)
 
 # ── DB CONNECTION ──
 def get_db():

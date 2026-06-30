@@ -3,9 +3,15 @@ from gtts import gTTS
 import os
 
 # Groq client
-client = Groq(api_key="your_api_key_here")  # apni key daalo
+try:
+    with open("keys.txt", "r") as f:
+        api_key_str = f.read().strip()
+except Exception:
+    api_key_str = "your_api_key_here"
 
-print("🧠 Pular AI Assistant - Text Test")
+client = Groq(api_key=api_key_str)
+
+print("Pular AI Assistant - Text Test")
 print("=" * 40)
 
 # Question English mein
@@ -30,9 +36,9 @@ response = client.chat.completions.create(
 )
 
 response_text = response.choices[0].message.content
-print(f"\n✅ AI Response:\n{response_text}")
+print(f"\n[OK] AI Response:\n{response_text}")
 
 # Audio bhi banao
 tts = gTTS(text=response_text, lang='fr')
 tts.save("pular_response.mp3")
-print("\n🔈 Audio saved: pular_response.mp3")
+print("\n[Audio] Audio saved: pular_response.mp3")

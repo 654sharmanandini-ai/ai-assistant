@@ -79,7 +79,13 @@ def get_message_count(chat_id):
 
 init_db()
 
-client = Groq(api_key="your_api_key_here")  # apni Groq key daalo
+try:
+    with open("keys.txt", "r") as f:
+        api_key_str = f.read().strip()
+except Exception:
+    api_key_str = "your_api_key_here"
+
+client = Groq(api_key=api_key_str)
 
 async def text_to_speech(text):
     communicate = edge_tts.Communicate(text, voice="fr-FR-DeniseNeural")
